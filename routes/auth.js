@@ -4,6 +4,7 @@ const router = express.Router();
 const bcrypt = require('bcryptjs');
 const sgMail = require('@sendgrid/mail');
 const keys = require('../config/keys');
+const jwt = require('jsonwebtoken');
 
 sgMail.setApiKey(keys.sendGridAPIKey);
 
