@@ -1,0 +1,1 @@
+To run this application, you need to provide the necessary access key i.e mongodb database url, secretOrKey for jwt token, AWS s3 access key ID, AWS s3 access Key, Sendgrid api key . These keys have to be provided in a "keys.js" file in the config directory. in 
