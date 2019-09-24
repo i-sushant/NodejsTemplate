@@ -23,7 +23,8 @@ router.post("/register", (req, res) => {
                     const body = {
                         username: req.body.username.toLowerCase(),
                         password: req.body.password,
-                        name: req.body.name
+                        name: req.body.name,
+                        email:req.body.email
                     };
                     const user = new User(body);
                     bcrypt.genSalt(10, (err, salt) => {
