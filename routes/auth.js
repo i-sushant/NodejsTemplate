@@ -81,7 +81,7 @@ router.post("/login", (req, res) => {
                     });
                 }
             });
-        });
+        }).catch(err => res.json(err));
 });
 
 
